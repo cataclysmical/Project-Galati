@@ -1,0 +1,1089 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = europe_fragmented
+						option = EUROPE_FRAGMENTED
+					}
+				}
+				ROM = {
+					release = DOB
+					release = BNT
+					release = BKV
+					release = BUD
+					release = KBD
+					release = SZK
+					release = MOL
+					release = MLV
+					release = PRT
+					release = WLL
+				}
+				WLL =  {
+					change_tag_from = ROM
+				}
+				WLL = {
+					annex_country = {
+						target = ROM
+					}
+				}
+				BUL = {
+					release = MOE
+					release = PMK
+					release = VID
+					remove_state_claim = 803
+					remove_state_claim = 731
+					remove_state_claim = 184
+					remove_state_claim = 77
+					remove_state_claim = 971
+					remove_state_claim = 106
+				}
+				VID = {
+					change_tag_from = BUL
+				}
+				VID = {
+					annex_country = {
+						target = BUL
+					}
+				}
+				HUN = {
+					delete_unit = { state = 43 }
+					delete_unit = { state = 154 }
+					delete_unit = { state = 974 }
+					delete_unit = { state = 155 }
+					release = PRT
+					release = CUM
+					release = TRD
+					release = JZG
+				}
+				JZG = {
+					change_tag_from = HUN
+					annex_country = { target = HUN }
+				}
+				YUG = {
+					release = TOR
+					release = ILI
+					release = MAC
+					release = BNT
+					release = VJD
+					release = SLA
+					release = HRZ
+					release = BOS
+					release = DAL
+					release = CRN
+					release = STY
+					release = MNT
+					release = KOS
+					release = SMD
+				}
+				SMD = {
+					change_tag_from = YUG
+				}
+				SMD = {
+					annex_country = {
+						target = YUG
+					}
+				}
+				ALB = {
+					release = ARO
+					release = GHG
+					release = TSK
+				}
+				TSK = {
+					change_tag_from = ALB
+				}
+				TSK = {
+					annex_country = {
+						target = ALB
+					}
+				}
+				GRE = {
+					release = PLP
+					release = CRE
+					release = EPI
+					release = MCD
+					release = THR
+					release = AEG
+					release = ATT
+					remove_state_core = 164
+					remove_state_core = 805
+				}
+				ATT = {
+					change_tag_from = GRE
+				}
+				ATT = {
+					annex_country = {
+						target = GRE
+					}
+				}
+				ITA = {
+					delete_unit = { state = 160 }
+					delete_unit = { state = 736 }
+					delete_unit = { state = 852 }
+					delete_unit = { state = 158 }
+					delete_unit = { state = 115 }
+					release = DAL
+					release = AEG
+					release = IST
+					release = TRE
+					release = VNC
+					release = LAD
+					release = LOM
+					release = PID
+					release = EMR
+					release = TOS
+					release = ANC
+					release = NPL
+					release = SIC
+					release = SRD
+					release = LTI
+					remove_state_claim = 934
+					remove_state_claim = 44
+					remove_state_claim = 805
+				}
+				LTI = {
+					change_tag_from = ITA
+				}
+				AUS = {
+					release = LTH
+					release = SLZ
+					release = TYR
+					release = CRT
+					release = LIE
+					release = LAU
+				}
+				LAU = {
+					change_tag_from = AUS
+				}
+				LAU = {
+					annex_country = {
+						target = AUS
+					}
+				} 
+				CZE = {
+					release = FLV
+					release = NIT
+					release = ZIP
+					release = RUT
+					release = UPS
+					release = MRV
+					release = SDT
+					release = BOH
+				}
+				BOH = {
+					change_tag_from = CZE
+				}
+				BOH = {
+					annex_country = {
+						target = CZE
+					}
+				}
+				POL = {
+					release = UPS
+					release = PZN
+					release = SIR
+					release = DNZ
+					release = KSH
+					release = MLP
+					release = PDL
+					release = CTL
+					release = PLT
+					release = BLK
+					release = POE
+					release = VLH
+					release = GAL
+					release = MAZ
+				}
+				85 = {
+					remove_dynamic_modifier = {
+						modifier = international_city
+					}	
+				}
+				MAZ = {
+					change_tag_from = POL
+				}
+				MAZ = {
+					annex_country = {
+						target = POL
+					}
+				}
+				LIT = {
+					release = YOT
+					release = MML
+					release = SMG
+					release = AUK
+				}
+				AUK = {
+					change_tag_from = LIT
+				}
+				AUK = {
+					annex_country = {
+						target = LIT
+					}
+				}
+				LAT = {
+					release = CUR
+					release = ZEM
+					release = LTG
+					release = LIV
+					release = RIA
+				}
+				RIA = {
+					change_tag_from = LAT
+				}
+				RIA = {
+					annex_country = {
+						target = LAT
+					}
+				}
+				EST = {
+					release = VOR
+					release = LIV
+					release = ESL
+				}
+				ESL = {
+					change_tag_from = EST
+				}
+				ESL = {
+					annex_country = {
+						target = EST
+					}
+				}
+				GER = {
+					release = LOS
+					release = UPS
+					release = WRM
+					release = ESP
+					release = THU
+					release = SAX
+					release = SCH
+					release = HLS
+					release = MEK
+					release = HAN
+					release = WST
+					release = OLD
+					release = BDN
+					release = WRT
+					release = PTT
+					release = HES
+					release = RHI
+					release = POM
+					release = FRN
+					release = BAY
+					release = BRN
+				}
+				978 = {
+					set_demilitarized_zone = no
+				}
+				42 = {
+					set_demilitarized_zone = no
+				}
+				51 = {
+					set_demilitarized_zone = no
+				}
+				BRN = {
+					change_tag_from = GER
+				}
+				BRN = {
+					annex_country = {
+						target = GER
+					}
+				}
+				SWI = {
+					release = LOM
+					release = VLS
+					release = RMD
+					release = RMT
+					release = ALE
+				}
+				ALE = {
+					change_tag_from = SWI
+				}
+				ALE = {
+					annex_country = {
+						target = SWI
+					}
+				}
+				FRA = {
+					delete_unit = { state = 735 }
+					delete_unit = { state = 21 }
+					delete_unit = { state = 20 }
+					delete_unit = { state = 22 }
+					delete_unit = { state = 31 }
+					delete_unit = { state = 19 }
+					delete_unit = { state = 23 }
+					delete_unit = { state = 26 }
+					delete_unit = { state = 27 }
+					delete_unit = { state = 17 }
+					delete_unit = { state = 28 }
+					delete_unit = { state = 18 }
+					delete_unit = { state = 29 }
+					delete_unit = { state = 785 }
+					delete_unit = { state = 15 }
+					delete_unit = { state = 16 }
+					delete_unit = { state = 30 }
+					delete_unit = { state = 24 }
+					delete_unit = { state = 30 }
+					delete_unit = { state = 14 }
+					release = PIC
+					release = CHM
+					release = ASL
+					release = NRM
+					release = ORL
+					release = BRG
+					release = ANJ
+					release = POI
+					release = AQU
+					release = GAS
+					release = LIM
+					release = AUV
+					release = LYO
+					release = DAU
+					release = PRO
+					release = SAV
+					release = COR
+					release = OCC
+					release = BRI
+					release = PRS
+				}
+				PRS = {
+					change_tag_from = FRA
+				}
+				LUX = {
+					release = GLX
+				}
+				GLX = {
+					change_tag_from = LUX
+				}
+				GLX = {
+					annex_country = {
+						target = LUX
+					}
+				}
+				BEL = {
+					release = GLX
+					release = WLO
+					release = BBT
+					release = FLA
+				}
+				FLA = {
+					change_tag_from = BEL
+				}
+				FLA = {
+					annex_country = {
+						target = BEL
+					}
+				}
+				HOL = {
+					delete_unit = { state = 36 }
+					delete_unit = { state = 7 }
+					delete_unit = { state = 35 }
+					release = BBT
+					release = FRS
+					release = HLD
+				}
+				HLD = {
+					change_tag_from = HOL
+				}
+				SPR = {
+					delete_unit = { state = 171 }
+					delete_unit = { state = 790 }
+					delete_unit = { state = 791 }
+					delete_unit = { state = 792 }
+					delete_unit = { state = 176 }
+					delete_unit = { state = 166 }
+					delete_unit = { state = 165 }
+					delete_unit = { state = 177 }
+					delete_unit = { state = 167 }
+					delete_unit = { state = 41 }
+					delete_unit = { state = 169 }
+					release = CAT
+					release = ASS
+					release = GLC
+					release = NAV
+					release = LAM
+					release = LEO
+					release = ARA
+					release = VAL
+					release = CRD
+					release = SEV
+					release = GRA
+					release = EXT
+					release = BAL
+					release = MUR
+					release = CAS
+				}
+				792 = {
+					remove_dynamic_modifier = {
+						modifier = autonomous_state
+					}	
+				}
+				CAS = {
+					change_tag_from = SPR
+				}
+				POR = {
+					delete_unit = { state = 180 }
+					delete_unit = { state = 112 }
+					delete_unit = { state = 795 }
+					delete_unit = { state = 698 }
+					release = AGV
+					release = AZO
+					release = MIR
+					release = BEI
+					release = ATJ
+					release = ETE
+				}
+				ETE = {
+					change_tag_from = POR
+				}
+				DEN = {
+					delete_unit = { state = 99 }
+					delete_unit = { state = 912 }
+					delete_unit = { state = 911 }
+					delete_unit = { state = 37 }
+					release = SCH
+					release = ZEA
+					release = FAR
+					release = JUT
+					release = BHM
+				}
+				ZEA = {
+					change_tag_from = DEN
+				}
+				ENG = {
+					delete_unit = { state = 127 }
+					delete_unit = { state = 126 }
+					delete_unit = { state = 125 }
+					delete_unit = { state = 338 }
+					delete_unit = { state = 122 }
+					delete_unit = { state = 130 }
+					delete_unit = { state = 132 }
+					delete_unit = { state = 131 }
+					delete_unit = { state = 133 }
+					delete_unit = { state = 121 }
+					delete_unit = { state = 118 }
+					delete_unit = { state = 116 }
+					release = GIB
+					release = CRW
+					release = SEX
+					release = WSX
+					release = MER
+					release = EAN
+					release = NTH
+					release = YRK
+					release = CMB
+					release = WLS
+					release = SHE
+					release = PCT
+					release = SCO
+					release = MNN
+					release = NIR
+					release = MLT
+					release = CYP
+					release = LON
+				}
+				LON = {
+					change_tag_from = ENG
+				}
+				IRE = {
+					release = LEI
+					release = CON
+					release = MUN
+				}
+				LEI = {
+					change_tag_from = IRE
+				}
+				LEI = {
+					annex_country = {
+						target = IRE
+					}
+				}
+				ICE = {
+					release = NRR
+				}
+				NRR = {
+					change_tag_from = ICE
+				}
+				NRR = {
+					annex_country = {
+						target = ICE
+					}
+				}
+				SWE = {
+					release = JMT
+					release = SCA
+					release = HEL
+					release = NRL
+					release = GOT
+					release = GET
+					release = SVE
+				}
+				SVE = {
+					change_tag_from = SWE
+				}
+				SVE = {
+					annex_country = {
+						target = SWE
+					}
+				}
+				NOR = {
+					release = AGD
+					release = HOR
+					release = HLG
+					release = FNM
+					release = VES
+					release = JAN
+				}
+				VES = {
+					change_tag_from = NOR
+				}
+				VES = {
+					annex_country = {
+						target = NOR
+					}
+				}
+				FIN = {
+					release = LAP
+					release = VYB
+					release = SVO
+					release = OST
+					release = TAV
+					release = ALA
+					release = MMK
+					release = WHT
+					release = NYL
+				}
+				NYL = {
+					change_tag_from = FIN
+				}
+				NYL = {
+					annex_country = {
+						target = FIN
+					}
+				}
+				145 = {
+						set_demilitarized_zone = no
+				}
+				SOV = {
+					delete_unit = { state = 199 }
+					delete_unit = { state = 198 }
+					delete_unit = { state = 834 }
+					delete_unit = { state = 192 }
+					delete_unit = { state = 226 }
+					delete_unit = { state = 227 }
+					delete_unit = { state = 137 }
+					delete_unit = { state = 202 }
+					delete_unit = { state = 201 }
+					delete_unit = { state = 220 }
+					delete_unit = { state = 221 }
+					delete_unit = { state = 218 }
+					delete_unit = { state = 234 }
+					delete_unit = { state = 194 }
+					delete_unit = { state = 206 }
+					delete_unit = { state = 223 }
+					delete_unit = { state = 219 }
+					delete_unit = { state = 722 }
+					delete_unit = { state = 215 }
+					delete_unit = { state = 195 }
+					delete_unit = { state = 208 }
+					delete_unit = { state = 209 }
+					delete_unit = { state = 210 }
+					delete_unit = { state = 207 }
+					delete_unit = { state = 242 }
+					delete_unit = { state = 241 }
+					delete_unit = { state = 224 }
+					delete_unit = { state = 231 }
+					delete_unit = { state = 230 }
+					delete_unit = { state = 213 }
+					release = POD
+					release = TRS
+					release = YED
+					release = CRI
+					release = ZAP
+					release = DNB
+					release = SLB
+					release = SIV
+					release = KYV
+					release = POE
+					release = PLT
+					release = MIN
+					release = WHT
+					release = OLO
+					release = MMK
+					release = TVE
+					release = SMO
+					release = ING
+					release = STP
+					release = VLG
+					release = PSK
+					release = VEP
+					release = PMO
+					release = NEN
+					release = KOM
+					release = NOV
+					release = ABK
+					release = GEO
+					release = AZR
+					release = ARM
+					release = KUB
+					release = DON
+					release = KAL
+					release = CIN
+					release = DAG
+					release = KBK
+					release = NOA
+					release = CIR
+					release = ASK
+					release = STV
+					release = YAI
+					release = VGG
+					release = SAR
+					release = VGC
+					release = ORE
+					release = VYA
+					release = PRM
+					release = TAT
+					release = BSK
+					release = UDM
+					release = MEL
+					release = CHU
+					release = VGE
+					release = RYA
+					release = ORY
+					release = NNV
+					release = VLD
+					release = MOS
+				}
+				MOS = {
+					change_tag_from = SOV
+				}
+				TUR = {
+					release = EDI
+					release = BYZ
+				}
+				341 = {
+						set_demilitarized_zone = no
+				}
+				797 = {
+						set_demilitarized_zone = no
+				}
+				145 = {
+						set_demilitarized_zone = no
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = africa_fragmented
+						option = AFRICA_FRAGMENTED
+					}
+				}
+				FRA = {
+				delete_unit = { state = 272 }
+				delete_unit = { state = 539 }
+				delete_unit = { state = 543 }
+				delete_unit = { state = 461 }
+				delete_unit = { state = 458 }
+				delete_unit = { state = 459 }
+				release = TMZ
+				release = MLI
+				release = SUS
+				release = MOR
+				release = MRT
+				release = KAB
+				release = EPN
+				release = ALG
+				release = TUN
+				release = SEN
+				release = GNA
+				release = IVO
+				release = VOL
+				release = TOG
+				release = DAH
+				release = KER
+				release = REU
+				release = COM
+				release = NGR
+				release = TOU
+				release = CHA
+				release = CAR
+				release = CMR
+				release = GAB
+				release = RCG
+				release = DJI
+				release = MAD
+				}
+				ITA = {
+					delete_unit = { state = 451 }
+					delete_unit = { state = 448 }
+					delete_unit = { state = 451 }
+					delete_unit = { state = 550 }
+					delete_unit = { state = 844 }
+					delete_unit = { state = 559 }
+					release = TOU
+					release = TRP
+					release = CYR
+					release = ERI
+					release = JUB
+					release = SOM
+				}
+				ITA = { ITA_peace_out_eth_on_startup_effect = yes }
+				SPR = {
+					delete_unit = { state = 178 }
+					delete_unit = { state = 290 }
+					release = WES
+					release = EQG
+					release = SUS
+					release = CNY
+					release = RIF
+				}
+				POR = {
+					delete_unit = { state = 544 }
+					delete_unit = { state = 892 }
+					delete_unit = { state = 540 }
+					release = MDE
+					release = CBV
+					release = GNB
+					release = SAO
+					release = KOG
+					release = OVI
+					release = BAR
+					release = OVI
+					release = MAK
+					release = SEA
+					release = GAZ
+				}
+				ENG = {
+					delete_unit = { state = 447 }
+					delete_unit = { state = 446 }
+					delete_unit = { state = 453 }
+					delete_unit = { state = 551 }
+					delete_unit = { state = 547 }
+					delete_unit = { state = 546 }
+					delete_unit = { state = 558 }
+					delete_unit = { state = 274 }
+					delete_unit = { state = 904 }
+					delete_unit = { state = 907 }
+					release = SNA
+					release = JUB
+					release = SML
+					release = KIK
+					release = KLJ
+					release = MOM
+					release = MAU
+					release = SEY
+					release = COP
+					release = SNN
+					release = KRD
+					release = SSD
+					release = DAR
+					release = BEJ
+					release = EGY
+					release = GAM
+					release = SIE
+					release = GHA
+					release = BAR
+					release = BOT
+					release = ZIM
+					release = ZAM
+					release = MLW
+					release = TZN
+					release = UGA
+					release = NBU
+					release = BIA
+					release = HAU
+					release = YOR
+					release = BOR
+					release = SHA
+					release = ASC
+				}
+				COG = {
+					release = RWA
+					release = BRD
+					release = KSI
+					release = KIV
+					release = KOG
+					release = EQU
+					release = KAT
+				}
+				LIB = {
+					delete_unit = { state = 298 }
+				}
+				768 = {
+					remove_dynamic_modifier = {
+						modifier = COG_rwandan_separatism_modifier
+					}	
+				}
+				769 = {
+					remove_dynamic_modifier = {
+						modifier = COG_burundian_separatism_modifier
+					}	
+				}
+				KOG =  {
+					change_tag_from = COG
+				}
+				KOG = {
+					annex_country = {
+						target = COG
+					}
+				}
+				ETH = {
+					release = HAR
+					release = SID
+					release = GBA
+					release = QEM
+					release = AFA
+					release = TIG
+					release = GMZ
+					release = BEN
+					release = ORO
+				}
+				AFA = {
+					delete_unit = { state = 908 }
+					delete_unit = { state = 843 }
+				}
+				ORO =  {
+					change_tag_from = ETH
+				}
+				ORO = {
+					annex_country = {
+						target = ETH
+					}
+				}
+				SAF = {
+					release = OVA
+					release = KAO
+					release = REH
+					release = NAM
+					release = CAP
+					release = ZUL
+					release = TRV
+				}
+				TRV =  {
+					change_tag_from = SAF
+				}
+				TRV = {
+					annex_country = {
+						target = SAF
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = asia_fragmented
+						option = ASIA_FRAGMENTED
+					}
+				}
+				SOV = {
+				delete_unit = { state = 588 }
+				delete_unit = { state = 589 }
+				delete_unit = { state = 732 }
+				delete_unit = { state = 405 }
+				delete_unit = { state = 742 }
+				delete_unit = { state = 657 }
+				delete_unit = { state = 563 }
+				delete_unit = { state = 409 }
+				delete_unit = { state = 408 }
+				release = SEL
+				release = YAM
+				release = MSI
+				release = KHT
+				release = TRU
+				release = STT
+				release = SCK
+				release = ALT
+				release = KHA
+				release = YEN
+				release = IRK
+				release = TRB
+				release = BYA
+				release = EVE
+				release = DOL
+				release = NGN
+				release = AMU
+				release = YUK
+				release = TNG
+				release = NIV
+				release = VLA
+				release = GUK
+				release = YAK
+				release = CKK
+				release = KOY
+				release = KHI
+				release = KKP
+				release = TAJ
+				release = KYR
+				release = TMS
+				release = BUK
+				release = UZB
+				release = GRY
+				release = SMC
+				release = KIM
+				release = TSC
+				release = MOG
+				}
+				TAN = {
+				delete_unit = { state = 329 }
+				}
+				SIK = {
+				delete_unit = { state = 617 }
+				release = MOG
+				}
+				TUR = {
+				delete_unit = { state = 347 }
+				delete_unit = { state = 339 }
+				delete_unit = { state = 342 }
+				delete_unit = { state = 49 }
+				delete_unit = { state = 355 }
+				delete_unit = { state = 344 }
+				delete_unit = { state = 350 }
+				delete_unit = { state = 352 }
+				delete_unit = { state = 800 }
+				delete_unit = { state = 354 }
+				release = MSY
+				release = ION
+				release = LYC
+				release = LYD
+				release = BTY
+				release = KMD
+				release = CPP
+				release = GLT
+				release = PHP
+				release = LAZ
+				release = PON
+				release = VAN
+				release = ZAZ
+				release = CIL
+				release = ASY
+				release = ROJ
+				}
+				340 = {
+					set_demilitarized_zone = no
+				}
+				GLT = {
+				change_tag_from = TUR
+				}
+				SYR = {
+				release = ROJ
+				release = AWI
+				release = DRZ
+				release = HAT
+				}
+				DRZ = {
+				change_tag_from = SYR
+				}
+				FRA = {
+				delete_unit = { state = 553 }
+				set_autonomy = { target = LEB autonomy_state = autonomy_free  }
+				}
+				ENG = {
+				delete_unit = { state = 454 }
+				delete_unit = { state = 659 }
+				release = FSA
+				release = BHR
+				release = QAT
+				release = UAE
+				set_autonomy = { target = JOR autonomy_state = autonomy_free }
+				remove_from_faction = JOR
+				set_autonomy = { target = KUW autonomy_state = autonomy_free }
+				remove_from_faction = KUW
+				set_autonomy = { target = PAL autonomy_state = autonomy_free }
+				remove_from_faction = PAL
+				}
+				PAL = {
+					drop_cosmetic_tag = yes
+					retire_country_leader = yes
+				}
+				LEB = {
+					drop_cosmetic_tag = yes
+				}
+				JOR = {
+					drop_cosmetic_tag = yes
+				}
+				KUW = {
+					drop_cosmetic_tag = yes
+				}
+				IRQ = {
+				delete_unit = { state = 676 }
+				delete_unit = { state = 291 }
+				delete_unit = { state = 1011 }
+				release = ASY
+				release = SUM
+				release = BAB
+				release = JBS
+				}
+				676 = {
+					remove_dynamic_modifier = {
+						modifier = KUR_resistance_modifier
+					}	
+				}
+				BAB = {
+				change_tag_from = IRQ
+				}
+				SAU = {
+				delete_unit = { state = 679 }
+				delete_unit = { state = 856 }
+				delete_unit = { state = 292 }
+				release = JBS
+				release = HEJ
+				release = NJD
+				}
+				NJD = {
+				change_tag_from = SAU
+				}
+				YEM = {
+				delete_unit = { state = 293 }
+				release = ZAY
+				}
+				ZAY = {
+				change_tag_from = YEM
+				}
+				RAJ = {
+				release = FSA
+				}
+				OMA = {
+				delete_unit = { state = 294 }
+				release = IMO
+				release = DHO
+				release = MUS
+				release = UAE
+				}
+				MUS = {
+				change_tag_from = OMA
+				}
+				PER = {
+				delete_unit = { state = 1000 }
+				delete_unit = { state = 266 }
+				delete_unit = { state = 414 }
+				release = MAH
+				release = TLY
+				release = SAZ
+				release = ARB
+				release = LOR
+				release = TAB
+				release = KHO
+				release = FSR
+				release = BLC
+				}
+				TAB = {
+				change_tag_from = PER
+				}
+				AFG = {
+				delete_unit = { state = 1009 }
+				delete_unit = { state = 415 }
+				delete_unit = { state = 267 }
+				delete_unit = { state = 1005 }
+				release = PAM
+				release = PSH
+				release = HER
+				release = TMS
+				}
+				PSH = {
+				change_tag_from = AFG
+				}
+			}
+		}
+	}
+}
